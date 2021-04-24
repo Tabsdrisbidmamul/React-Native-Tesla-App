@@ -1,1 +1,1 @@
-export { default as CarItem } from "./CarItem/CarItem";
+export { default as CarList } from './CarList/CarList';
