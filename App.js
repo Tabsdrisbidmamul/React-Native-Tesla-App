@@ -6,7 +6,12 @@ import { CarItem } from './components';
 export default function App() {
   return (
     <View style={styles.container}>
-      <CarItem />
+      <CarItem
+        name="Model X"
+        subtitle="Order online for"
+        subtitleCTA="Touchless Delivery "
+        image={require('./assets/images/ModelX.jpeg')}
+      />
 
       <StatusBar style="auto" />
     </View>
